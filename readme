@@ -1,0 +1,13 @@
+I had a couple problems. 1) for some reason all of my random numbers were the same, so each process takes the same amount of time to run. 2) There's some issue
+with forking. The log can only have 50 lines or else fork() fails.
+
+to build:
+	make oss
+	make child
+
+to run:
+	./oss
+
+to clean:
+	make clean
+
